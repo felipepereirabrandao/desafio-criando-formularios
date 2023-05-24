@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #EFEFEF;
+}
+
+header {
+
+    background: #535971;
+}
+
+header div {
+    width: 750px;
+    margin: 0 auto;
+}
+
+header h1 {
+    padding-top: 140px;
+    padding-bottom: 18px;
+    font-family: 'Staatliches';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+header p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+
+    width: 417px;
+    padding-bottom: 172px;
+}
+
+.line {
+    border: 1px solid #E6E6F0;
+}
+
+.formulario {
+    width: 750px;
+    margin: 0 auto;
+    margin-top: -114px;
+    background: #FFFFFF;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.formulario form {
+    padding: 34px 64px 0 64px;
+}
+
+.formulario form h2 {
+    font-family: 'Staatliches';
+    font-weight: 400;
+    font-size: 24px;
+    color: #535971;
+
+    padding-top: 30px;
+}
+
+.formulario form h3 {
+    font-family: 'Staatliches';
+    font-weight: 400;
+    font-size: 20px;
+    color: #535971;
+
+    padding-top: 32px;
+}
+
+.formulario form label {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    color: #4E4958;
+
+    padding: 16px 0px 8px 0px;
+}
+
+.formulario form label span {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    color: #C1BCCC;
+
+
+}
+
+form .nome-sobrenome input {
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    height: 56px;
+    width: 300px;
+}
+
+form .nome-sobrenome label {
+    display: block;
+
+}
+
+form .nome-sobrenome {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 22px;
+}
+
+form input {
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    height: 56px;
+    width: 622px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.data-hora-mentoria {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+
+
+.date label {
+    display: block;
+}
+
+.date input {
+    width: 300px;
+
+}
+
+.date input[type="date"] {
+    padding-left: 12px;
+}
+
+.hora label {
+    display: block;
+}
+
+.hora input[type="time"] {
+    width: 140px;
+    padding-left: 12px;
+
+}
+
+.hora input[type="time"]::-webkit-calendar-picker-indicator {
+    background: none;
+}
+
+.botao-salvar {
+    width: 750px;
+    height: 160px;
+    margin: 0 auto;
+    text-align: center;
+    background: #535971;
+    border-radius: 0px 0px 20px 20px;
+    margin-bottom: 50px;
+}
+
+.botao-salvar button {
+    width: 608px;
+    height: 55.65px;
+    left: 416px;
+    top: 1456.67px;
+
+    background: #FF5374;
+    border-radius: 20px;
+    border: none;
+
+    font-family: 'Staatliches';
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+
+    margin-top: 52.67px;
+}
+
+.botao-salvar button:hover{
+    background: #da4764;
+}
